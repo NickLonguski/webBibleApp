@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+#screen1, #screen2 {
+  padding: 20px;
+}
+
+#screen2 {
+  display: none; /* Initially hide screen2 */
+  margin-top: 20px;
+}
+
+#bibleDisplay { /* Changed to bibleDisplay */
+  width: 100%;
+  margin-top: 10px;
+  line-height: 1.6; /* Improve readability */
+}
+
+#bibleDisplay p {
+    margin-bottom: 0.5em; /* Spacing between verses/paragraphs */
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+}
