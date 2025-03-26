@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Psalms": "Psalms.csv",
         "Proverbs": "Proverbs.csv",
         "Ecclesiastes": "Ecclesiastes.csv",
-        "Song of Solomon": "Song of Solomon.csv",
+        "Song of Songs": "Song of Solomon.csv",
         "Isaiah": "Isaiah.csv",
         "Jeremiah": "Jeremiah.csv",
         "Lamentations": "Lamentations.csv",
@@ -121,10 +121,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Populate the dropdown dynamically
-    for (const bookName in bookFiles) {
-        const option = document.createElement('option');
-        option.value = bookName;
-        option.textContent = bookName;
-        bibleDropdown.appendChild(option);
-    }
+    //for (const bookName in bookFiles) {
+        //const option = document.createElement('option');
+        //option.value = bookName;
+        //option.textContent = bookName;
+        //bibleDropdown.appendChild(option);
+    //}
 });
