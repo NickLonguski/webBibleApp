@@ -23,9 +23,10 @@ body {
 }
 
 button {
-  padding: 40px;
+  padding: 50px;
   cursor: pointer;
   width: 100%;
+  font-size: 40px;
 }
 
 select {
