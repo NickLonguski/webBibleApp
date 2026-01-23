@@ -2,6 +2,7 @@ body {
   font-family: Georgia;
   background-color: white;
   text-align: center;
+  font-size: 20px;
 }
 
 #screen1, #screen2 {
