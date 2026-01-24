@@ -28,8 +28,9 @@ body {
 button {
   padding: 20px;
   cursor: pointer;
-  width: 25%;
+  width: 20px;
   font-size: 20px;
+  border-radius: 25px;
 }
 
 select {
