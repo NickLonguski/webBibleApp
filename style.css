@@ -28,9 +28,10 @@ body {
 button {
   padding: 20px;
   cursor: pointer;
-  width: 25px;
+  width: 25%;
   font-size: 20px;
   border-radius: 25px;
+  background-color: white;
 }
 
 select {
@@ -38,4 +39,7 @@ select {
   font-size: 20px;
   width: 25%;
   border-radius: 25px;
+}
+button:hover {
+  background-color: gray
 }
